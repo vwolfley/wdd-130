@@ -4,7 +4,7 @@
 
 My repository for BYUI WDD130 class projects
 
-## WD 130 - Web Fundamentals
+## WDD 130 - Web Fundamentals
 #### Fall 2023
 
 ### Topics
