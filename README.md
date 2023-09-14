@@ -8,7 +8,7 @@ My repository for BYUI WDD130 class projects
 #### Fall 2023
 
 ### Topics
-`byui` `wdd130` `school` `winter` `school-project` `school-assignments` `school-education` `byu-idaho`
+`byui` `wdd130` `school` `fall` `school-project` `school-assignments` `school-education` `byu-idaho` `html` `css`
 
 ---
 
@@ -46,4 +46,7 @@ My repository for BYUI WDD130 class projects
 
 This project is licensed under the MIT license.
 
--   [LICENSE](LICENSE)                                                                                                                                                       
+-   [LICENSE](LICENSE) 
+
+[Back to top](#wdd-130)
+
