@@ -5,9 +5,11 @@
 My repository for BYUI WDD130 class projects
 
 ## WDD 130 - Web Fundamentals
-#### Fall 2023
+
+### Fall 2023
 
 ### Topics
+
 `byui` `wdd130` `school` `fall` `school-project` `school-assignments` `school-education` `byu-idaho` `html` `css`
 
 ---
@@ -20,6 +22,22 @@ My repository for BYUI WDD130 class projects
 
 ---
 
+### Project List
+
+#### aboutme
+
+- Create a web page using HTML that has a short biography and picture. The purpose of this was to introduce us to HTML and the other students in class.
+
+#### wwr
+
+- wwr or White Water Rafting is the project web site that is being built
+
+#### index.html
+
+- This index is for the github pages for hosting all of the sites being developed.
+
+---
+
 ### ⚙ Free Web Dev Tools
 
 - 🔗 [Google Chrome Web Browser](https://google.com/chrome/)
@@ -29,6 +47,7 @@ My repository for BYUI WDD130 class projects
 ---
 
 ### 💻 Technology
+
 - This course is using
 
 <a href="https://code.visualstudio.com/" title="vscode"><img src="https://github.com/get-icon/geticon/raw/master/icons/visual-studio-code.svg" alt="vscode" width="31px" height="31px"></a>
@@ -37,7 +56,7 @@ My repository for BYUI WDD130 class projects
 <a href="https://prettier.io/" title="Prettier"><img src="https://github.com/get-icon/geticon/raw/master/icons/prettier.svg" alt="Prettier" width="31px" height="31px"></a>
 <a href="https://git-scm.com/" title="git"><img src="https://github.com/get-icon/geticon/raw/master/icons/git-icon.svg" alt="git" width="31px" height="31px"></a>
 <a href="https://github.com/" title="github"><img src="https://github.com/get-icon/geticon/raw/master/icons/github-icon.svg" alt="github" width="31px" height="31px"></a>
-                                                                                                                                                                       
+
 ### 📚 References
 
 ---
@@ -46,7 +65,6 @@ My repository for BYUI WDD130 class projects
 
 This project is licensed under the MIT license.
 
--   [LICENSE](LICENSE) 
+- [LICENSE](LICENSE)
 
 [Back to top](#wdd-130-a1)
-
