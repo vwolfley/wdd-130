@@ -1,0 +1,139 @@
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #144266;
+  --secondary-color: #78c4d7;
+  --accent1-color: #03763d;
+  --accent2-color: #ddfcad;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: Palatino, Georgia, serif;
+  --paragraph-font: "Trebuchet MS", Arial, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #144266; /* headlines on a white background */
+  --headline-color-on-color: white; /* headlines on a colored background */
+  --paragraph-color-on-white: #144266; /* paragraph text on a white background */
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */
+  --paragraph-background-color: #144266;
+  --nav-link-color: #144266;
+  --nav-background-color: #78c4d7;
+  --nav-hover-link-color: #144266;
+  --nav-hover-background-color: #ddfcad;
+}
+
+body {
+  background-color: #fcfdfd;
+}
+
+header {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+footer {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--nav-hover-background-color);
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 80px;
+}
+
+.icon {
+  width: 80px;
+}
+
+nav a {
+  text-align: center;
+  color: var(--nav-link-color);
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+}
+
+#hero-msg h1 h4 {
+  text-align: center;
+}
+#hero-img {
+  width: 100%;
+}
+
+.home-title {
+  color: var(--headline-color-on-white);
+}
+
+h4 {
+  color: var(--headline-color-on-white);
+}
+
+.button-box {
+  text-align: center;
+}
+
+main section {
+  text-align: center;
+}
+
+#background {
+  height: 725px;
+  background-color: var(--accent1-color);
+}
+
+.book {
+  background-color: var(--nav-background-color);
+  color: var(--nav-link-color);
+  text-decoration: none;
+}
+
+.book:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+}
+
+.join {
+  background-color: var(--nav-background-color);
+  color: var(--nav-link-color);
+  text-decoration: none;
+}
+
+.join:hover {
+  background-color: var(--nav-hover-background-color);
+  color: var(--nav-hover-link-color);
+}
+
+.msg {
+  background-color: var(--nav-background-color);
+  color: var(--nav-link-color);
+}
+
+.msg h2 {
+  color: var(--headline-color-on-color);
+}
+
+.msg p {
+  color: var(--paragraph-color-on-color);
+}
