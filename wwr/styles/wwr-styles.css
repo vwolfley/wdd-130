@@ -23,6 +23,14 @@
 
 body {
   background-color: #fcfdfd;
+  font-family: var(--paragraph-font);
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
 }
 
 header {
@@ -33,6 +41,7 @@ header {
 footer {
   background-color: var(--primary-color);
   color: white;
+  padding: 25px 50px;
 }
 
 footer a {
@@ -52,6 +61,10 @@ footer p a:hover {
   text-decoration: underline;
 }
 
+footer .social img {
+  padding-top: 15px;
+}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -63,16 +76,22 @@ footer p a:hover {
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 nav a {
   text-align: center;
   color: var(--nav-link-color);
   text-decoration: none;
+  padding: 35px;
 }
 nav a:hover {
   background-color: var(--nav-hover-background-color);
   color: var(--nav-hover-link-color);
+}
+
+#logo_link {
+  padding-top: 5px;
 }
 
 #hero-msg h1 h4 {
@@ -84,10 +103,13 @@ nav a:hover {
 
 .home-title {
   color: var(--headline-color-on-white);
+  font-family: var(--heading-font);
+  font-size: 2em;
 }
 
 h4 {
   color: var(--headline-color-on-white);
+  font-family: var(--heading-font);
 }
 
 .button-box {
@@ -107,6 +129,8 @@ main section {
   background-color: var(--nav-background-color);
   color: var(--nav-link-color);
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
 }
 
 .book:hover {
@@ -118,6 +142,8 @@ main section {
   background-color: var(--nav-background-color);
   color: var(--nav-link-color);
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
 }
 
 .join:hover {
@@ -128,12 +154,18 @@ main section {
 .msg {
   background-color: var(--nav-background-color);
   color: var(--nav-link-color);
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2 {
   color: var(--headline-color-on-color);
+  font-family: var(--heading-font);
 }
 
 .msg p {
   color: var(--paragraph-color-on-color);
+  font-size: 0.8em;
+  font-family: var(--paragraph-font);
+  padding-bottom: 15px;
 }
