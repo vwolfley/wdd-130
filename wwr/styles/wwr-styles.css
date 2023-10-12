@@ -42,6 +42,7 @@ footer {
   background-color: var(--primary-color);
   color: white;
   padding: 25px 50px;
+  margin-top: 200px;
 }
 
 footer a {
@@ -105,6 +106,7 @@ nav a:hover {
   color: var(--headline-color-on-white);
   font-family: var(--heading-font);
   font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
@@ -120,30 +122,28 @@ main section {
   text-align: center;
 }
 
+main section img{
+  box-sizing: border-box;
+}
+
 #background {
   height: 725px;
   background-color: var(--accent1-color);
 }
 
-.book {
+.book, .join{
   background-color: var(--nav-background-color);
   color: var(--nav-link-color);
   text-decoration: none;
   font-size: 18px;
   padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover {
   background-color: var(--nav-hover-background-color);
   color: var(--nav-hover-link-color);
-}
-
-.join {
-  background-color: var(--nav-background-color);
-  color: var(--nav-link-color);
-  text-decoration: none;
-  font-size: 18px;
-  padding: 15px 30px;
 }
 
 .join:hover {
@@ -168,4 +168,12 @@ main section {
   font-size: 0.8em;
   font-family: var(--paragraph-font);
   padding-bottom: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid var(--accent1-color);
 }
