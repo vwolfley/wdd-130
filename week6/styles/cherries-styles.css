@@ -1,0 +1,44 @@
+body{
+    margin: 2em;
+    font-family: Georgia, serif;
+    background-color: white;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px
+}
+
+.cherries_img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.title {
+    font-size: 12em;
+    letter-spacing: .1em;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.grey_div{
+    height: 100%;
+    background-color: lightgray;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.subTitle {
+    color: #9c0d11;
+    font-size: 6em;
+    letter-spacing: .15em;
+    text-align: center;
+    padding-top: 500px;
+}
