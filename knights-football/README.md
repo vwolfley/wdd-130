@@ -47,6 +47,7 @@ https://branding.greatheartsamerica.org/
 - #750e23, RGB(117,14, 35, 255)
 - #c1b6a8, RGB(193, 182, 168, 255)
 - #221a08, RGB(34, 26, 8, 255)
+- #212c64, RGB(33, 33, 100)
 
 #### From Brand Doc
 - burgundy, PMS 1817, RGB(100, 51, 53), #643335
