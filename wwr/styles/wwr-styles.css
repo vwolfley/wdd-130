@@ -131,7 +131,8 @@ nav a:hover {
 
 #hero-msg h4 {
   text-align: center;
-  color: white;
+  color: var(--headline-color-on-color);
+  font-family: var(--heading-font);
 }
 
 #hero-img {
@@ -145,10 +146,10 @@ nav a:hover {
   margin-top: 10px;
 }
 
-h4 {
+/* h4 {
   color: var(--headline-color-on-white);
   font-family: var(--heading-font);
-}
+} */
 
 .button-box {
   text-align: center;
