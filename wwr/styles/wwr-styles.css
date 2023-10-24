@@ -140,7 +140,7 @@ nav a:hover {
 }
 
 .home-title {
-  color: var(--headline-color-on-white);
+  color: var(--headline-color-on-color);
   font-family: var(--heading-font);
   font-size: 2em;
   margin-top: 10px;
