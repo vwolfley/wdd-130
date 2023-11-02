@@ -59,3 +59,37 @@ https://branding.greatheartsamerica.org/
 - Calibri - regular / italic bold / bold italic
 - Minion Pro - regular / regular italic, medium / medium italic, bold
 - Helvetica Neue Condensed - light condensed, bold condensed
+
+
+## Page Outlines
+
+#### Roster
+
+Football Roster
+
+List of players and their stats
+Number, Name, Position, Height, Weight, Class
+
+Coaching Staff
+Name, Title
+
+
+#### Schedule
+
+Stats boxes detailing:
+- Overall Record
+- Conference Record
+- Home Record
+- Away Record
+
+Games
+
+List the game information:
+- Time
+- Location
+- Opponent
+- Opponents mascot
+- Whether it was a win, loss, or not played yet
+- Final score
+
+#### Regulations
