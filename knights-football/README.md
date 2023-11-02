@@ -73,8 +73,42 @@ Number, Name, Position, Height, Weight, Class
 Coaching Staff
 Name, Title
 
+#### Definitions of Player Positions
+
+- WR: Wide Receiver
+- LB: Linebacker
+- QB: Quarterback
+- TE: Tight End
+- RB: Running Back
+- OL: Offensive Line
+- DL: Defensive Line
+- K: Kicker
+- P: Punter
+- ATH: Athlete
+- OG: Offensive Guard
+- OT: Offensive Tackle
+- C: Center
+- HB: Halfback
+- FB: Fullback
+- DT: Defensive Tackle
+- DE: Defensive End
+- MLB: Middle Linebacker
+- OLB: Outside Linebacker
+- CB: Cornerback
+- S: Safety
+- H: Holder
+- LS: Long Snapper
+- KR: Kick Returner
+- PR: Punt Returner
 
 #### Schedule
+
+Trivium Prep Crimson Knights
+Varsity Boys Football
+Goodyear, AZ
+
+Conference - 2A
+Region - Gila
 
 Stats boxes detailing:
 - Overall Record
@@ -82,9 +116,17 @@ Stats boxes detailing:
 - Home Record
 - Away Record
 
+- Overall Record: 3-7
+- Overall PCT: 0.300
+- Conference Record: 3-6
+- Conference PCT: 0.333
+- Region: 3-3
+- Region PCT: 0.500
+
 Games
 
 List the game information:
+- Date
 - Time
 - Location
 - Opponent
