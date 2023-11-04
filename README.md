@@ -24,17 +24,39 @@ My repository for BYUI WDD130 class projects
 
 ### Project List
 
+#### index.html
+
+This index is for the github pages for hosting all of the sites being developed.
+
+- [Github Page](https://vwolfley.github.io/wdd-130-a1/)
+
 #### aboutme
 
-- Create a web page using HTML that has a short biography and picture. The purpose of this was to introduce us to HTML and the other students in class.
+Create a web page using HTML that has a short biography and picture. The purpose of this was to introduce us to HTML and the other students in class.
+
+- [About Me Site](https://vwolfley.github.io/wdd-130-a1/aboutme/index.html)
 
 #### wwr
 
-- wwr or White Water Rafting is the project web site that is being built
+wwr or White Water Rafting is the project web site that is being built
+  
+- [White Water Rafting - site plan](https://vwolfley.github.io/wdd-130-a1/wwr/site-plan-rafting.html)
+- [White Water Rafting -site](https://vwolfley.github.io/wdd-130-a1/wwr/index.html)
 
-#### index.html
+#### Positioning Activity Assignment
 
-- This index is for the github pages for hosting all of the sites being developed.
+Learning css grid principles
+
+- [Positioning Activity](https://vwolfley.github.io/wdd-130-a1/positioning/positioning.html)
+
+
+#### Personal Website Assignment
+
+My personal website assignment project is to make a website for a high school football team showing their roster and team schedule.
+
+- [Knights Football - site plan](https://vwolfley.github.io/wdd-130-a1/knights-football/site-plan.html)
+- [Knights Football](https://vwolfley.github.io/wdd-130-a1/knights-football/index.html)
+
 
 ---
 
