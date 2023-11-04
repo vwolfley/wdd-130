@@ -63,6 +63,33 @@ https://branding.greatheartsamerica.org/
 
 ## Page Outlines
 
+#### Home
+
+#### Good Sportsmanship Reminder
+As member schools of the Arizona Interscholastic
+Association, we would like to remind you the objectives of
+educational based athletics are what set this event apart
+from all other levels of competition. We have a strong
+commitment to excellence, fair play, and above all, good
+sportsmanship. 
+
+“The NCAA and the American Athletic Conference promote good 
+sportsmanship by student‐athletes, coaches and spectators. We 
+request your cooperation by supporting the participants and 
+officials in a positive manner. Profanity, racial or ethnic 
+comments, or other intimidating actions directed at officials, 
+student‐athletes, coaches or team representatives will not be 
+tolerated and are grounds for removal from the site of 
+competition.”
+
+#### Great Hearts Athletic Philosophy
+
+Our students benefit from the development of habits and virtue as part of the athletic experience. We strive for excellence on and off the field, providing an experience that shapes our athletes to be better people. The best measure of success of a Great Hearts athletic program is found in the character of the athlete it produces. All of our students can find opportunities to be successful while also being challenged at the highest levels of athletic competition.
+
+Great Hearts athletes train and practice with vigor similar to their approach in their academic pursuits. Our athletic programs foster a sense of cooperation that builds community and creates the life-long friendships. Our programs also foster team spirit and encourage the celebration of accomplishments and personal growth. Through community and building relationships, athletes are held to the highest standard of integrity and sportsmanship.
+
+
+
 #### Roster
 
 Football Roster
@@ -135,3 +162,45 @@ List the game information:
 - Final score
 
 #### Regulations
+
+American football is a complex game with many signals you must know to stay in the game.  These referee signals are crucial to understanding the game and what is being communicated on the field.  Well take a look at some of the more common rules and referee signals so you will have a better understanding of the game.
+
+Hand signals accompany every penalty call the referee makes throughout a game.  These signals ensure that everyone who is in attendance watching the game will know what penalty was called.
+
+Show a list of common rules that refs call out and their signs
+
+Common High School football penalties and referee hand signals
+A reference list of the most frequent football penalties with referee hand signal pics to accompany them.
+
+Common Penalties
+- Holding
+- Face mask
+- Personal foul
+- Unsportsmanlike
+- Encroachment
+- Illegal Shift
+- False start
+- Illegal forward pass
+- Roughing the passer
+- Ineligible receiver downfield
+- Touchdown
+- Safety
+- Pass interference
+- Blocking below the waist - Clipping
+- Blocking below the waist - Chop block
+- Delay of game
+- Illegal motion
+- Offsides
+- Intentional grounding
+- Illegal contact
+
+
+
+##### Examples
+
+[Rule Book](https://allaccess.nfhs.org/Publication/View?bookId=14354163)
+[football-referee-signals](https://footballadvantage.com/football-referee-signals/)
+[common signals](https://www.cougcenter.com/2013/6/28/4445944/common-ncaa-football-penalties-referee-signals)
+[png signals](https://www.studenthandouts.com/pictures/clip-art/sports/football/football-referee-signals.htm)
+
+[wiki](https://en.wikipedia.org/wiki/Penalty_(gridiron_football))
