@@ -80,6 +80,8 @@ My personal website assignment project is to make a website for a high school fo
 <a href="https://git-scm.com/" title="git"><img src="https://github.com/get-icon/geticon/raw/master/icons/git-icon.svg" alt="git" width="31px" height="31px"></a>
 <a href="https://github.com/" title="github"><img src="https://github.com/get-icon/geticon/raw/master/icons/github-icon.svg" alt="github" width="31px" height="31px"></a>
 
+---
+
 ### 📚 References
 
 ---
