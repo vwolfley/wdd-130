@@ -1,5 +1,6 @@
 # wdd-130-a1
 
+![GitHub deployments](https://img.shields.io/github/deployments/vwolfley/wdd-130-a1/deployments?style=flat-square&logo=github&label=Deployments&color=%23bada55)
 [![GitHub license](https://img.shields.io/github/license/vwolfley/cse210-23w-23?style=flat-square)](https://github.com/vwolfley/cse210-23w-23/blob/main/LICENSE)
 
 My repository for BYUI WDD130 class projects
