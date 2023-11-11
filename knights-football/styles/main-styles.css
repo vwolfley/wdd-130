@@ -1,0 +1,149 @@
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #750e23;
+    --secondary-color: #c1b6a8;
+    --accent1-color: #212c64;
+    --accent2-color: #ededed;
+    --accent3-color: #221a08;
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: "Minion Pro Regular Bold", Times New Roman, serif;
+    --paragraph-font: "Helvetica Neue Condensed", "Helvetica Neue", Calibri, Helvetica, sans-serif;
+
+    /* these colors below should be chosen from among your palette colors above */
+    --headline-color-on-white: var(--accent1-color); /* headlines on a white background */
+    --headline-color-on-color: var(--accent2-color); /* headlines on a colored background */
+    --paragraph-color-on-white: var(--accent1-color); /* paragraph text on a white background */
+    --paragraph-color-on-color: var(--accent1-color); /* paragraph text on a colored background */
+    --paragraph-background-color: var(--accent2-color); /* paragraph background color */
+    --nav-link-color: var(--accent2-color);
+    --nav-background-color: var(--primary-color);
+    --nav-hover-link-color: var(--accent1-color);
+    --nav-hover-background-color: var(--accent2-color);
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--paragraph-background-color);
+    color: var(--paragraph-color-on-white);
+}
+
+p,
+ul {
+    font-family: var(--paragraph-font);
+    padding: 1em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    padding: 1em;
+}
+
+.body-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+/* Header and Nav bar */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: var(--primary-color);
+    font-family: "Montserrat", sans-serif;
+}
+
+.heading {
+    color: var(--headline-color-on-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: var(--nav-link-color);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+
+.nav-links a:hover:not(.active) {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+.nav-links li a.active {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+
+
+/* Footer Styles */
+
+footer {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 25px 50px;
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--nav-hover-background-color);
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    width: 60px;
+    height: 60px;
+    padding-top: 15px;
+}
