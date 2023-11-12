@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #ffffff;
 }
 
@@ -40,20 +40,56 @@ main {
     color: var(--paragraph-color-on-white);
 }
 
-p,
-ul {
-    font-family: var(--paragraph-font);
-    padding: 1em;
+main section img {
+    box-sizing: border-box;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
+h1 {
+    font-family: var(--heading-font);
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+h2 {
+    font-family: var(--heading-font);
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: 10px;
+}
+h3 {
+    font-family: var(--heading-font);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-bottom: 10px;
+}
+h4 {
+    font-family: var(--heading-font);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 10px;
+}
+h5 {
+    font-family: var(--heading-font);
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 10px;
+}
 h6 {
     font-family: var(--heading-font);
-    padding: 1em;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+ul {
+    font-family: var(--paragraph-font);
+    padding: 1rem;
 }
 
 .body-text {
@@ -74,11 +110,21 @@ nav {
     font-family: "Montserrat", sans-serif;
 }
 
-.heading {
+.logo_link {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+}
+.logo {
+    width: 100px;
+    padding: 5px 0;
+}
+
+.title {
     color: var(--headline-color-on-color);
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 1.55rem;
 }
 
 .nav-links {
@@ -96,7 +142,7 @@ nav {
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 1.15rem;
     padding: 14px 16px;
 }
 
@@ -110,7 +156,39 @@ nav {
     color: var(--nav-hover-link-color);
 }
 
+/* Hero Section */
 
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    height: 700px;
+}
+
+.hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.hero-msg h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hero-msg h2 {
+    color: var(--headline-color-on-white);
+    font-size: 2rem;
+    text-align: center;
+}
+
+.hero-img {
+    width: 100%;
+    height: 700px;
+}
 
 /* Footer Styles */
 
@@ -135,7 +213,7 @@ footer a:hover {
 }
 
 footer p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 footer p a:hover {
@@ -143,7 +221,108 @@ footer p a:hover {
 }
 
 footer .social img {
-    width: 60px;
-    height: 60px;
-    padding-top: 15px;
+    justify-self: center;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+}
+
+/* Welcome Section */
+
+.welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--secondary-color);
+    color: var(--paragraph-color-on-color);
+}
+.content-box {
+    margin: 50px;
+    padding: 25px;
+}
+
+.content-box h2 {
+    margin-top: 0;
+}
+
+/* Philosophy Section */
+
+.philosophy {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    padding: 25px;
+    column-gap: 50px;
+}
+
+.philosophy .box1 {
+    display: flex;
+    flex-direction: column;
+}
+.philosophy .box1 h2 {
+    margin-top: 0;
+}
+
+.philosophy .box2 {
+    display: flex;
+    align-content: center;
+    border-left: 5px solid var(--secondary-color);
+}
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+
+blockquote cite {
+    padding: 0 2em 0 0;
+    text-align:right;
+}
+blockquote cite:before {
+    content: "\2014 \2009";
+    }
+
+/* Sportsmanship Section */
+
+.sportsmanship {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.photo-area{
+    background-color: var(--accent1-color);
+}
+
+.photo-area .content-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo-area img {
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
 }
