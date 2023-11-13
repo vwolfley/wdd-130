@@ -14,7 +14,7 @@
     --headline-color-on-white: var(--accent1-color); /* headlines on a white background */
     --headline-color-on-color: var(--accent2-color); /* headlines on a colored background */
     --paragraph-color-on-white: var(--accent1-color); /* paragraph text on a white background */
-    --paragraph-color-on-color: var(--accent1-color); /* paragraph text on a colored background */
+    --paragraph-color-on-color: var(--accent2-color); /* paragraph text on a colored background */
     --paragraph-background-color: var(--accent2-color); /* paragraph background color */
     --nav-link-color: var(--accent2-color);
     --nav-background-color: var(--primary-color);
@@ -120,11 +120,11 @@ nav {
     padding: 5px 0;
 }
 
-.title {
+.title h4 {
     color: var(--headline-color-on-color);
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 1.55rem;
+    margin: 0;
 }
 
 .nav-links {
@@ -174,13 +174,25 @@ nav {
     grid-row: 1/2;
 }
 
-.hero-msg h1 {
+#home .hero-msg h1 {
     font-size: 3rem;
     text-align: center;
 }
 
-.hero-msg h2 {
+#roster .hero-msg h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: var(--headline-color-on-color);
+}
+
+#home .hero-msg h2 {
     color: var(--headline-color-on-white);
+    font-size: 2rem;
+    text-align: center;
+}
+
+#roster .hero-msg h2 {
+    color: var(--headline-color-on-color);
     font-size: 2rem;
     text-align: center;
 }
@@ -233,8 +245,8 @@ footer .social img {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background-color: var(--secondary-color);
-    color: var(--paragraph-color-on-color);
+    background-color: var(--accent1-color);
+    color: var(--paragraph-background-color);
 }
 .content-box {
     margin: 50px;
@@ -248,27 +260,37 @@ footer .social img {
 /* Philosophy Section */
 
 .philosophy {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 5px;
     margin: 50px;
     padding: 25px;
-    column-gap: 50px;
 }
 
 .philosophy .box1 {
+    grid-column: 1/9;
+    grid-row: 1/2;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .philosophy .box1 h2 {
     margin-top: 0;
 }
 
 .philosophy .box2 {
+    grid-column: 10/13;
+    grid-row: 1/2;
     display: flex;
-    align-content: center;
-    border-left: 5px solid var(--secondary-color);
+    flex-direction: column;
+    justify-content: center;
 }
+
+.philosophy .box2 .border {
+    border-left: 5px solid var(--secondary-color);
+    padding-left: 25px;
+}
+
 blockquote {
     font-family: Georgia, serif;
     position: relative;
@@ -288,41 +310,203 @@ blockquote:before {
 blockquote:after {
     font-family: Georgia, serif;
     position: absolute;
-    float:right;
-    font-size:6em;
+    float: right;
+    font-size: 6em;
     line-height: 1;
-    right:0;
-    bottom:-0.5em;
+    right: 0;
+    bottom: -0.5em;
     content: "\201D";
 }
 
 blockquote cite {
     padding: 0 2em 0 0;
-    text-align:right;
+    text-align: right;
 }
 blockquote cite:before {
     content: "\2014 \2009";
-    }
+}
 
 /* Sportsmanship Section */
 
 .sportsmanship {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+    margin: 50px;
+    padding: 25px;
+}
+.sportsmanship img {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    width: 350px;
+    height: 350px;
 }
 
-.photo-area{
+.sportsmanship .content-area {
+    grid-column: 5/13;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Photo Area */
+
+.photo-area {
     background-color: var(--accent1-color);
 }
 
-.photo-area .content-box{
+.photo-area .content-box {
     display: flex;
     justify-content: space-evenly;
 }
 
 .photo-area img {
-    width:  300px;
+    width: 300px;
     height: 300px;
     object-fit: cover;
+    border: 5px solid var(--accent2-color);
+}
+
+/* Roster Section */
+
+.roster-area {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 5px;
+    margin: 50px;
+    padding: 25px;
+}
+
+.roster-area .definitions {
+    grid-column: 1/5;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--secondary-color);
+    padding: 25px;
+}
+
+.roster-area .definitions h3,
+h4 {
+    margin: 0;
+}
+.roster-area .definitions ul {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.roster-area .player-list {
+    grid-column: 6/13;
+    grid-row: 1/2;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 5px;
+}
+.roster-area .player-list h3{
+    margin-top: 0;
+}
+
+/* Player */
+
+.player {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1, 1fr;
+    
+}
+
+.player .number {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-align: center;
+}
+.player .stats {
+    grid-column: 3/13;
+    grid-row: 1/1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 2, 1fr;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    background-color: var(--secondary-color);
+}
+.player .stats .name {
+    grid-column: 1/13;
+    grid-row: 1/1;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    justify-self: start;
+}
+
+.player .stats .position-head {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 0;
+}
+.player .stats .position {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.player .stats .year-head {
+    grid-column: 4/6;
+    grid-row: 2/3;
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 0;
+}
+.player .stats .year {
+    grid-column: 4/6;
+    grid-row: 3/4;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.player .stats .weight-head {
+    grid-column: 6/8;
+    grid-row: 2/3;
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 0;
+}
+.player .stats .weight {
+    grid-column: 6/8;
+    grid-row: 3/4;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.player .stats .height-head {
+    grid-column: 8/10;
+    grid-row: 2/3;
+    font-size: 0.75rem;
+    text-align: center;
+    margin: 0;
+}
+.player .stats .height {
+    grid-column: 8/10;
+    grid-row: 3/4;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
 }
