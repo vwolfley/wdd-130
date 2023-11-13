@@ -185,6 +185,12 @@ nav {
     color: var(--headline-color-on-color);
 }
 
+#schedule .hero-msg h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: var(--headline-color-on-color);
+}
+
 #home .hero-msg h2 {
     color: var(--headline-color-on-white);
     font-size: 2rem;
@@ -192,6 +198,12 @@ nav {
 }
 
 #roster .hero-msg h2 {
+    color: var(--headline-color-on-color);
+    font-size: 2rem;
+    text-align: center;
+}
+
+#schedule .hero-msg h2 {
     color: var(--headline-color-on-color);
     font-size: 2rem;
     text-align: center;
@@ -404,7 +416,7 @@ h4 {
     flex-direction: column;
     grid-row-gap: 5px;
 }
-.roster-area .player-list h3{
+.roster-area .player-list h3 {
     margin-top: 0;
 }
 
@@ -414,7 +426,6 @@ h4 {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1, 1fr;
-    
 }
 
 .player .number {
@@ -427,7 +438,7 @@ h4 {
     color: var(--accent2-color);
     text-align: center;
 }
-.player .stats {
+.player .player-stats {
     grid-column: 3/13;
     grid-row: 1/1;
     display: grid;
@@ -441,7 +452,7 @@ h4 {
     padding-left: 10px;
     background-color: var(--secondary-color);
 }
-.player .stats .name {
+.player .player-stats .name {
     grid-column: 1/13;
     grid-row: 1/1;
     font-size: 2rem;
@@ -450,14 +461,14 @@ h4 {
     justify-self: start;
 }
 
-.player .stats .position-head {
+.player .player-stats .position-head {
     grid-column: 2/4;
     grid-row: 2/3;
     font-size: 0.75rem;
     text-align: center;
     margin: 0;
 }
-.player .stats .position {
+.player .player-stats .position {
     grid-column: 2/4;
     grid-row: 3/4;
     font-size: 1.25rem;
@@ -465,14 +476,14 @@ h4 {
     text-align: center;
     margin: 0;
 }
-.player .stats .year-head {
+.player .player-stats .year-head {
     grid-column: 4/6;
     grid-row: 2/3;
     font-size: 0.75rem;
     text-align: center;
     margin: 0;
 }
-.player .stats .year {
+.player .player-stats .year {
     grid-column: 4/6;
     grid-row: 3/4;
     font-size: 1.25rem;
@@ -480,14 +491,14 @@ h4 {
     text-align: center;
     margin: 0;
 }
-.player .stats .weight-head {
+.player .player-stats .weight-head {
     grid-column: 6/8;
     grid-row: 2/3;
     font-size: 0.75rem;
     text-align: center;
     margin: 0;
 }
-.player .stats .weight {
+.player .player-stats .weight {
     grid-column: 6/8;
     grid-row: 3/4;
     font-size: 1.25rem;
@@ -495,18 +506,48 @@ h4 {
     text-align: center;
     margin: 0;
 }
-.player .stats .height-head {
+.player .player-stats .height-head {
     grid-column: 8/10;
     grid-row: 2/3;
     font-size: 0.75rem;
     text-align: center;
     margin: 0;
 }
-.player .stats .height {
+.player .player-stats .height {
     grid-column: 8/10;
     grid-row: 3/4;
     font-size: 1.25rem;
     font-weight: bold;
     text-align: center;
     margin: 0;
+}
+
+/* Schedule Page */
+
+.info-section {
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+.team-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+.stats-box {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    border: 3px solid var(--accent2-color);
+}
+.stats-box h3{
+    margin-top: 0;
 }
