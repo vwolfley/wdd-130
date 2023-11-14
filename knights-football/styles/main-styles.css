@@ -547,6 +547,7 @@ h4 {
     background-color: var(--accent1-color);
     color: var(--accent2-color);
     border: 3px solid var(--accent2-color);
+    border-radius: 15px;
 }
 .stats-box h3{
     margin-top: 0;
