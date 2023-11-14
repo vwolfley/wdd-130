@@ -251,6 +251,17 @@ footer .social img {
     height: 40px;
 }
 
+footer .nav-links {
+    width: 100%;
+}
+
+footer .nav-links a {
+    font-weight: bold;
+    font-size: 0.8rem;
+    letter-spacing: normal;
+    padding: 10px 12px;
+}
+
 /* Welcome Section */
 
 .welcome {
@@ -562,7 +573,7 @@ h4 {
     padding: 25px;
     text-align: center;
 }
-.schedule-area h3{
+.schedule-area h2 {
     margin-top: 0;
 }
 .game {
@@ -572,11 +583,10 @@ h4 {
 .game-stats {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding: 15px;
     text-align: center;
-    
 }
 .game-stats img {
     width: 60px;
@@ -585,15 +595,21 @@ h4 {
 .game-stats h5 {
     margin: 0;
 }
-.game-stats .game-time{
-    font-size: 1.5em;
-    font-weight: 800;
+.game-stats .game-time {
     width: 160px;
     padding: 15px;
     background-color: var(--accent1-color);
     color: var(--accent2-color);
     border: 3px solid var(--accent2-color);
     border-radius: 15px;
+}
+.game-stats .game-time .date {
+    font-size: 1.25em;
+    font-weight: 800;
+}
+.game-stats .game-time .time {
+    font-size: 1em;
+    font-weight: 600;
 }
 .game-stats .opponent {
     display: flex;
@@ -619,7 +635,7 @@ h4 {
     margin-left: 10px;
     margin-right: 10px;
 }
-.game-stats .score{
+.game-stats .score {
     font-size: 1.25em;
     font-weight: 600;
 }
