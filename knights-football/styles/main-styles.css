@@ -1,7 +1,7 @@
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #750e23;
-    --secondary-color: #c1b6a8;
+    --primary-color: #643335;
+    --secondary-color: #afa9a0;
     --accent1-color: #212c64;
     --accent2-color: #ededed;
     --accent3-color: #221a08;
@@ -427,7 +427,7 @@ h4 {
     flex-direction: column;
     grid-row-gap: 5px;
 }
-.roster-area .player-list h3 {
+.roster-area .player-list h2 {
     margin-top: 0;
 }
 
@@ -531,6 +531,63 @@ h4 {
     font-weight: bold;
     text-align: center;
     margin: 0;
+}
+
+/* Roster - Coaching Area */
+.coaching-area {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: 2, 1fr; */
+    grid-gap: 5px;
+    margin: 50px;
+    padding: 25px;
+}
+.coaching-area .coach-list {
+    grid-column: 1/6;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    grid-row-gap: 5px;
+}
+.coaching-area h2 {
+    grid-column: 1/13;
+    /* grid-template-rows: 1/2; */
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.coaching-area .coach {
+    grid-template-rows: 2/3;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 2, 1fr;
+    background-color: var(--secondary-color);
+    padding: 10px;
+}
+.coach .name{
+    grid-column: 1/13;
+    grid-row: 1/1;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+    justify-self: start;
+}
+.coach .title {
+    grid-column: 1/13;
+    grid-row: 2/3;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: start;
+    margin: 0;
+}
+
+.coaching-area .pic-area {
+    grid-column: 6/13;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Schedule Page */
