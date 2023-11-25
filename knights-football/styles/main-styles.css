@@ -415,14 +415,16 @@ blockquote cite:before {
     padding: 25px;
 }
 
-.roster-area h2, h3,
+.roster-area h2,
+h3,
 h4 {
     grid-column: 1/13;
     display: flex;
     justify-content: center;
     margin: 0 0 20px 0;
 }
-.definitions h4, h5 {
+.definitions h4,
+h5 {
     margin: 0;
 }
 .roster-area .definitions ul {
@@ -705,4 +707,40 @@ h4 {
 .game-stats .score {
     font-size: 1.25em;
     font-weight: 600;
+}
+
+/* Countdown */
+.countdown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+.countdown-content {
+    margin: 25px;
+    padding: 25px;
+}
+
+.countdown h1 {
+    margin-top: 0;
+}
+.countdown-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.countdown p {
+    text-align: center;
+    font-size: 60px;
+    margin: 0px;
+}
+
+.count-day{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
 }
