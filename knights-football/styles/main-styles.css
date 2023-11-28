@@ -29,6 +29,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 18px;
+    font-family: var(--paragraph-font);
     background-color: #ffffff;
 }
 
@@ -101,10 +102,11 @@ ul {
 
 /* Header and Nav bar */
 
-nav {
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     min-height: 8vh;
     background-color: var(--primary-color);
     font-family: "Montserrat", sans-serif;
@@ -119,6 +121,12 @@ nav {
     width: 100px;
     padding: 5px 0;
 }
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
 
 .title h4 {
     color: var(--headline-color-on-color);
@@ -131,6 +139,12 @@ nav {
     display: flex;
     justify-content: space-around;
     width: 30%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .nav-links li {
@@ -223,8 +237,19 @@ footer {
     margin-top: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+.footer-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+}
+
+footer .copyright {
+    font-size: 0.8rem;
 }
 
 footer a {
@@ -252,6 +277,9 @@ footer .social img {
 }
 
 footer .nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     width: 100%;
 }
 
@@ -348,12 +376,27 @@ blockquote cite {
 blockquote cite:before {
     content: "\2014 \2009";
 }
+@media screen and (max-width: 900px) {
+    .philosophy {
+        align-items: center;
+        justify-items: center;
+    }
+    .philosophy .box1 {
+        grid-column: span 12;
+        grid-row: 1/2;
+    }
+    .philosophy .box2 {
+        grid-column: span 12;
+        grid-row: 2/3;
+    }
+}
 
 /* Sportsmanship Section */
 
 .sportsmanship {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    align-items: center;
     grid-gap: 10px;
     margin: 50px;
     padding: 25px;
@@ -373,6 +416,23 @@ blockquote cite:before {
     justify-content: center;
 }
 
+@media screen and (max-width: 900px) {
+    .sportsmanship {
+        align-items: center;
+        justify-items: center;
+    }
+    .sportsmanship img {
+        grid-column: span 12;
+        grid-row: 1/2;
+        width: 300px;
+        height: 300px;
+    }
+    .sportsmanship .content-area {
+        grid-column: span 12;
+        grid-row: 2/3;
+    }
+}
+
 /* Photo Area */
 
 .photo-area {
@@ -382,6 +442,8 @@ blockquote cite:before {
 .photo-area .content-box {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 .photo-area img {
@@ -389,6 +451,12 @@ blockquote cite:before {
     height: 300px;
     object-fit: cover;
     border: 5px solid var(--accent2-color);
+}
+@media screen and (max-width: 900px) {
+    .photo-area img {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 /* Roster Section */
@@ -602,6 +670,29 @@ h5 {
     justify-content: center;
 }
 
+@media screen and (max-width: 900px) {
+    .coaching-area {
+        align-items: center;
+        justify-items: center;
+    }
+    .coaching-area h2 {
+        grid-column: span 12;
+        grid-row: 1/2;
+    }
+    .coaching-area .coach-list {
+        grid-column: span 12;
+        grid-row: 2/3;
+    }
+    .coaching-area .pic-area {
+        grid-column: span 12;
+        grid-row: 3/4;
+    }
+    .pic-area img {
+        width: 600px;
+        /* height: 400px; */
+    }
+}
+
 /* Schedule Page */
 
 .info-section {
@@ -613,7 +704,8 @@ h5 {
 .team-stats {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     margin: 10px;
     padding: 25px;
     text-align: center;
@@ -726,12 +818,11 @@ h5 {
 .countdown h1 {
     margin-top: 0;
 }
-.countdown-box{
+.countdown-box {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 .countdown p {
     text-align: center;
@@ -739,7 +830,7 @@ h5 {
     margin: 0px;
 }
 
-.count-day{
+.count-day {
     text-align: center;
     font-size: 30px;
     margin-top: 5px;
