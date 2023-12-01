@@ -516,7 +516,7 @@ h5 {
 .player {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1, 1fr;
+    grid-template-rows: 1fr;
 }
 
 .player .number {
@@ -534,7 +534,7 @@ h5 {
     grid-row: 1/1;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 2, 1fr;
+    grid-template-rows: repeat(2, 1fr);
     font-size: 1.25rem;
     font-weight: bold;
     margin: 0;
@@ -617,7 +617,6 @@ h5 {
 .coaching-area {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    /* grid-template-rows: 2, 1fr; */
     grid-gap: 5px;
     margin: 50px;
     padding: 25px;
@@ -632,16 +631,14 @@ h5 {
 }
 .coaching-area h2 {
     grid-column: 1/13;
-    /* grid-template-rows: 1/2; */
     margin-top: 0;
     display: flex;
     justify-content: center;
 }
 .coaching-area .coach {
-    grid-template-rows: 2/3;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 2, 1fr;
+    grid-template-rows: repeat(2, 1fr);
     background-color: var(--secondary-color);
     padding: 10px;
 }
